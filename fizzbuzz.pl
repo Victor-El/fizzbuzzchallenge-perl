@@ -10,7 +10,7 @@ for (my $i = 0; $i <= $number_of_iteration; $i++) {
         say "fizzbuzz";
     } elsif ($i % 5 == 0) {
         say "buzz";
-    } elsif ($! % 3 == 0) {
+    } elsif ($i % 3 == 0) {
         say "fizz";
     } else {
         say "$i";

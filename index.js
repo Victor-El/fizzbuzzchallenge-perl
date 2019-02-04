@@ -1,3 +1,5 @@
+'use strict'
+
 let numOfIte = 100;
 
 for(let i = 0; i <= numOfIte; i++) {
